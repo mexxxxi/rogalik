@@ -32,7 +32,7 @@ typedef struct {
 Character* create_character(const char* name, CharacterClass class);
 void take_damage(Character* character, int damage);
 void use_mana(Character* character, int amount);
-int is_alive(Character* character);
+int  is_alive(Character* character);
 void heal_hp_character(Character* character, int amount);
 void heal_mp_character(Character* character, int amount);
 void block_damage(Character* character, int amount);
@@ -45,4 +45,5 @@ void destroy_character(Character* character);
 
 
 #endif
+
 
