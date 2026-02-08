@@ -9,6 +9,7 @@
 
 #include "Inventory.h"
 #include "Health.h"
+#include "Map.h"
 
 
 typedef enum {
@@ -29,6 +30,8 @@ typedef struct {
 
 
 Entity new_entity(void);
+
+void entity_move(Entity *ent, Map *map, int ch);
 
 
 #endif /* ENTITY_H */
